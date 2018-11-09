@@ -8,7 +8,7 @@
 package com.c.pattern;
 
 /*
- * Q.1
+Q.1
 1
 1 2 1
 1 2 3 2 1
