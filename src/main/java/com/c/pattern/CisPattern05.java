@@ -23,10 +23,17 @@ public class CisPattern05 {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter value of N:");
 		int n = sc.nextInt();
-
+		int check = 0;
+		int sum = 0;
 		for (int i = 1; i <= n; i++) {
-			for (int j = 1; j <=i; j++) {
-				System.out.print(j*i);
+			sum = i;
+			check = i;
+			int temp = n;
+			while (check > 0) {
+				System.out.print(sum + " ");
+				sum = sum + (temp - 1);
+				check--;
+				temp--;
 			}
 			System.out.println();
 		}
