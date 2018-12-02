@@ -23,7 +23,7 @@ public class FirstAndLastDigit {
 		System.out.println("First Digit is: "+findFirstDigit(n));
 	}
 
-	private static int findFirstDigit(int n) {
+	public static int findFirstDigit(int n) {
 		while(n>9) {
 			n = n/10;
 		}
